@@ -1,0 +1,21 @@
+
+h2 {
+    font-weight: bold;
+}
+body {
+    background-color: #ede6d1;
+}
+p,div, ul, li {
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+table, tr, td{
+    border: 2px solid black;
+    font-family: 'Roboto';
+}
+th {
+    font-weight: bold;
+    font-family: 'Roboto';
+    border: 2px solid black;
+    font-size: 25px;
+}

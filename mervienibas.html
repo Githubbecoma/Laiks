@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style> 
+            body {background-image: url("imgs/cipari.jpg")}
+            div {font-size: 20px; background-color: rgb(220, 220, 0)}
+        </style>
+    </head>
+    <body>
+        <h1>Informācijas daudzuma mērvienībās</h1>
+        <form>
+            <div><input type="text" name="GBv">GB=</div>
+            <div><input value="Izteikt megabaitos" name="mb" onclick="rezMBv.value=GBv.value * 1000" type="button"><input type="text" name="rezMBv">MB</div>
+            <div><input value="Izteikt mibibaitos" name="mib" onclick="rezMiBv.value=GBv.value * 1000000" type="button"><input type="text" name="rezMiBv">MiB</div>
+        </form>
+    </body>
+</html>
